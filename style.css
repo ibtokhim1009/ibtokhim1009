@@ -1,43 +1,91 @@
-<html>
-    <head>
-        <title></title>
-        <link rel="stylesheet" href="style.css">
-        <link rel = "preconnect" href = "https://fonts.googleapis.com">
-<link rel = "preconnect" href = "https://fonts.gstatic.com" >
-<link href = "https: //fonts.googleapis.com/css2? family = Roboto + Slab: вес @ 600 & display = swap "rel =" stylesheet ">
-    </head>
-    <body>
-        <header>
-            <img class="background" src="http://images.vfl.ru/ii/1640690052/f83592b4/37310369.png"/>
-            <nav>
-        <div class="logo">
-            <img src="http://images.vfl.ru/ii/1640691302/edf7c5a8/37310667.png"/>
-        </div>    
-         <div class="text">   
-            <a class="nav-link" href="">О комплексе</a>
-            <a class="nav-link" href="">О компании</a>
-            <a class="nav-link" href="">Новости</a>
-            <a class="nav-link" href="">Медиа-Банк</a>
-            <a class="nav-link" href="">Контакты</a>
-        </div>
-        <div class="english">
-            <img class="earth" src="http://images.vfl.ru/ii/1640691912/95ffa548/37310864.png"/>
-            <img class="earth" src="http://images.vfl.ru/ii/1640691657/a484fe29/37310796.png"/>
-            <a class="nav-language" href="">English</a>
-        </div>
-            </nav>
-    
-        </header>
-        <main>
-            <div>
-            <h1>ЭКСПОФОРУМ</h1>
-        <p class="exporfum">конгрессно-выставочный центр</p>
-        <p class="piter">Санк-Петербурга</p>
-        <a class="compleks" href="">О комплексе</a>
-        <img class="strelka" src="http://images.vfl.ru/ii/1640711414/108ab145/37315457.png"/>
-            </div>
-        </main>
-        <footer>
-        </footer>
-    </body>
-</html>
+body {
+    font-family: sans-serif;
+    background-color: black;
+}
+
+.background{
+    width:100%;
+    position: absolute;
+    z-index: -1;
+}
+
+
+
+nav{
+    width: 100%;
+    top: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+    border-bottom: 1px solid white;
+}
+
+nav img{
+    width: 175px;
+}
+
+.earth{
+    width: 20px
+}
+
+.logo{
+    width: 176px;
+}
+
+.nav-language{
+    right: 50px;
+    font-family: Circe;
+}
+
+nav a{
+    text-decoration: none;
+    color: white
+}
+
+.nav-link{
+    padding: 10px;
+    margin-bottom: 10px;
+    font-family: Circe;
+}
+
+h1{
+    color: white;
+    font-size:100px;
+    text-align: center;
+}
+
+.exporfum{
+    position: relative;
+    top: 40px;
+    left: 120px;
+    color: white;
+    font-family: roboto slab;
+    font-size: 35px;
+    text-align: center;
+}
+
+.piter{
+    position: relative;
+    top:10px;
+    left: 570px;
+    color: white;
+    font-family: Roboto Slab;
+    font-size: 30px ;
+}
+
+.compleks{
+    position: relative;
+    top: 30px;
+    left: 120px;
+    color: white;
+    font-family: Circe;
+    text-decoration: none;
+}
+
+.strelka{
+    position: relative;
+    top: ;
+    left: 210px;
+    width: 15px
+}
